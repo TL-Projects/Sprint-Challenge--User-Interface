@@ -66,10 +66,33 @@ p {
     line-height: 1.4;
 }
 
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+header {
+    display: flex;
+}
+
+.logo {
+    width: 157px;
+    height: 41px;
+    margin-top: 14px;
+}
+
+header nav {
+    padding-top: 37px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding-left: 80px;
+    font-size: 13px;
+}
+
 
 .top-content {
     display: flex;
@@ -77,6 +100,11 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .top-content .text-container {
@@ -112,6 +140,10 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +157,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
 
 footer {
     width: 100%;
@@ -144,3 +178,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
